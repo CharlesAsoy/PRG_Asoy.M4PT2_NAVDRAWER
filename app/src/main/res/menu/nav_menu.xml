@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/nav_location"
+            android:title="Location"/>
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/nav_notification"
+            android:title="Notification"/>
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/nav_booking"
+            android:title="Booking"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/nav_friends"
+            android:title="Friends"/>
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@drawable/nav_sent"
+            android:title="Sent"/>
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/nav_mail"
+            android:title="Inbox"/>
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@drawable/nav_reviews"
+            android:title="Reviews"/>
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/nav_favorites"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="Home" />
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
